@@ -8,7 +8,7 @@ import fetch from 'node-fetch';
  * @return {Promise<json>}
  */
 export const getData = async (url) => {
-    // A Compléter
+    // A Complétera
     const publicKey = "374514abedf02316076969f0d8b971e1";
     const privateKey = "ca8924646dd732699f6f08fd037a6bcb31972fb7";
     const ts = new Date().getTime();
